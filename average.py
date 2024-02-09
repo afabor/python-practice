@@ -4,3 +4,5 @@ num3 = float(input('Enter third number: '))
 total = num1 + num2 + num3
 average = total / 3
 print(f'The average sum of these numbers is {average}')
+
+# Changing this file to initialise with Git
