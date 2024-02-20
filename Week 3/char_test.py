@@ -1,6 +1,11 @@
-from character import Character
+from character import Enemy
 
-dave = Character('Dave', 'A dirty zombie')
+dave = Enemy('Dave', 'A dirty zombie')
 dave.describe()
 dave.set_conversation('Hello, what are you going here?')
 dave.talk()
+dave.set_weakness('cheese')
+
+print('What will you fight with?')
+fight_with = input()
+dave.fight(fight_with)
