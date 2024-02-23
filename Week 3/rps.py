@@ -1,5 +1,33 @@
 from random import choice
 
+# class Player():
+#     def __init__(self):
+#         self.move = None
+
+#     def player_move(move):
+#         if move == 1:
+#             return 'Rock'
+#         elif move == 2:
+#             return 'Paper'
+#         elif move == 3:
+#             return 'Scissors'
+#         else:
+#             return 'Invalid Input'
+        
+#     def comp_move():
+#         comp_choice = random.randint(1,3)
+
+#         if comp_choice == 1:
+#             return 'Rock'
+#         elif comp_choice == 2:
+#             return 'Paper'
+#         elif comp_choice == 3:
+#             return 'Scissors'
+        
+   
+        
+#     print(player_move(4))
+#     print(comp_move())
 user_options = ['Rock', 'Paper', 'Scissors']
  
 human_choice = input('What do you choose? "Rock", "Paper" or "Scissors"?\n')
